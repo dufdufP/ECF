@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Médiatèque</title>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+        <div id="alert">
+            <!-- Affichage de l'alert -->
+        </div>
+        <div class="row mt-2">
+            <!-- Zone de titre -->
+            <h1>Liste des films</h1>
+        </div>
+
+        <div class="row mt-2" id="form">
+            <!-- Zone de formulaire -->
+        </div>
+
+        <div class="row mt-2">
+            <div class="form-group">
+                <label for="filtre">Filtrer par : </label>
+                <select class="form-control" id="filtre">
+                    <option value="#" selected>Filtrer par</option>
+                    <option value="title">Titre</option>
+                    <option value="years">Année</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <table class="table table-striped">
+                <thead>
+                    <th>Titre</th>
+                    <th>Année</th>
+                    <th>Réalisateur</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <!-- Affichage des films -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
